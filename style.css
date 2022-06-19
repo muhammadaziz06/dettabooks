@@ -42,19 +42,7 @@
     font-weight: 600;
     margin-bottom: 40px;
   }
-  @media screen and (max-width:680px){
-    .center h1 {
-      font-size: 27px;
-      font-weight: 600;
-      margin-bottom: 40px;
-    }
-    .center h3 {
-      font-size: 15px;
-      font-weight: 600;
-      margin-bottom: 30px;
-      letter-spacing: 3px;
-    }
-  }
+  
 
 
   .center form {
@@ -108,5 +96,29 @@
   .book-list {
     margin-top: 50px;
     visibility: hidden;
+  }
+
+@media screen and (max-width:680px){
+    .center h1 {
+      font-size: 27px;
+      font-weight: 600;
+      margin-bottom: 40px;
+    }
+    .center h3 {
+      font-size: 15px;
+      font-weight: 600;
+      margin-bottom: 30px;
+      letter-spacing: 3px;
+    }
+     .category {
+      width: 60px;
+      height: 60px;
+    }
+    .category img {
+      width: 20px;
+      margin-top: 20px;
+      margin-bottom: 5px;
+    }
+    
   }
  
