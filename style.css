@@ -98,7 +98,7 @@
     visibility: hidden;
   }
 
-@media screen and (max-width:680px){
+@media screen and (max-width:600px){
     .center h1 {
       font-size: 27px;
       font-weight: 600;
